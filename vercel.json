@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!lms-portal|assets|pdfs|favicon.svg|icons.svg).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
